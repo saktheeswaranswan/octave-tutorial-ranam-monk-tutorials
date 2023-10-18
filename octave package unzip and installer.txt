@@ -1,0 +1,2 @@
+unzip install octave
+for file in /home/josva/octave\ packages/*.tar.gz; do tar -xzf "$file" -C /home/josva/octave\ packages/; done
